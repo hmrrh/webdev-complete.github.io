@@ -1,0 +1,33 @@
+body {
+  text-align: center; /*img diaturnya disini karena dia di treat as text, nah parent nya itu body makanya bisa jd center karna set disini
+                      nah yg si p sama h1 ga kena edit karena kan itu class. pokoknya content itu ngikut classnya*/
+  background-color: rgb(239, 238, 230);
+  margin: 50px;
+}
+img {
+  width: 300px;
+  height: 200px;
+  border-radius: 50px;
+}
+
+h1 {
+  font-family: "Press Start 2P", cursive; /*kasih tanda petik nandain kalo ini tuh import. terus sehabis koma tuh tandanya buat fallback misal yg font pertama lama loading*/
+  text-align: center;
+  color: rgb(83, 75, 75);
+}
+p {
+  font-family: "Source Code Pro", monospace;
+  text-align: center;
+  color: rgb(83, 75, 75);
+  font-weight: bold;
+}
+a {
+  background-color: violet;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border-radius: 4px;
+}
+a:hover {
+  text-decoration: none;
+  background-color: pink;
+}
